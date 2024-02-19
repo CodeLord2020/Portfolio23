@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Python Web Developer",
-          "Data Scientist",
+          "Django Flask FastAPI",
           "Data Analyst",
         ],
         autoStart: true,

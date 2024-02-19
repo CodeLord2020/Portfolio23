@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+// import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,22 +20,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am expert in web dev:
-              builds, maintains, and optimizes websites with various tools & frameworks.
+              I'm a Python developer passionate about crafting dynamic web experiences, extracting insights from data, and building innovative data-driven solutions.
+              <br /><br />
+     <h1 style={{ fontSize: "1.3em" }}>         
+<span className="purple">Python</span> is my tool of choice to: </h1>
+
+<b className="purple"> Weave web magic: </b> <br /><i>
+Craft responsive web applications using frameworks like Django, Flask and FastAPI. <br />
+Design interactive user interfaces that engage and delight. <br />
+Build scalable backends that handle complex data flows securely.</i> <br />  <br />
+
+           
+              
+                <b className="purple"> Uncover hidden truths in data: </b><br /><i>
+                Explore and manipulate diverse datasets using libraries like NumPy, Pandas, and Matplotlib.<br />
+Discover patterns, trends, and anomalies through rigorous analysis.<br />
+Communicate findings effectively through clear visualizations.</i><br /><br />
+              
+              
+              <b className="purple"> Empower with machine learning: </b>
+              
               <br />
-              <br />fluent in classics like
+              
               <i>
-                <b className="purple"> python & Javascript. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products.
-                </b>
-              </i>
-              <br />
-              <br />
+              Develop intelligent algorithms for prediction, classification, and recommendation systems.<br />
+Build models that learn from data and adapt to evolving needs.<br />
+Drive decision-making and automation across industries.</i><br /><br />
+        
               Whenever possible, I also apply my passion for developing products
               with
               <i>
@@ -64,7 +76,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Muzmmil207"
+                  href="https://github.com/CodeLord2020"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.facebook.com/profile.php?id=100086063400724"
+                  href="https://www.facebook.com/adebayo.rasheed.752"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -84,7 +96,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/muzamil-ali-63230a206"
+                  href="https://www.linkedin.com/in/rasheedbabatunde-50133921a"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -94,7 +106,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:mly88207@gmail.com"
+                  href="mailto:rasheedbabatunde76@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
